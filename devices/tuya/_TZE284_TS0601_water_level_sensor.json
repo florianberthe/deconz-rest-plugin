@@ -14,7 +14,7 @@
   "status": "Bronze",
   "subdevices": [
     {
-      "type": "ZHAGauge",
+      "type": "$TYPE_GAUGE_SENSOR",
       "restapi": "/sensors",
       "uuid": [
         "$address.ext",
