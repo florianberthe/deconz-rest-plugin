@@ -10,9 +10,13 @@
     "0x01"
   ],
   "items": [
+    "config/height",
+    "config/heightmax",
+    "config/heightmin",
     "config/on",
     "config/reachable",
     "state/height",
-    "state/lastupdated"
+    "state/lastupdated",
+    "state/level"
   ]
 }
