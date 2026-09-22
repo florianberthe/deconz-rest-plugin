@@ -67,43 +67,6 @@
         },
         { "name": "attr/type" },
         { "name": "attr/uniqueid" },
-        {
-          "name": "cap/measured_value/quantity",
-          "read": { "fn": "none" },
-          "parse": {
-            "dpid": 21,
-            "eval": "Item.val = String(Attr.val);",
-            "fn": "tuya"
-          }
-        },
-        {
-          "name": "cap/measured_value/max",
-          "description": "Liquid maximum percentage",
-          "read": { "fn": "none" },
-          "parse": {
-            "dpid": 7,
-            "eval": "Item.val = Attr.val;",
-            "fn": "tuya"
-          }
-        },
-        {
-          "name": "cap/measured_value/min",
-          "description": "Liquid minimum percentage",
-          "read": { "fn": "none" },
-          "parse": {
-            "dpid": 8,
-            "eval": "Item.val = Attr.val;",
-            "fn": "tuya"
-          }
-        },
-        {
-          "name": "cap/measured_value/substance",
-          "static": "level"
-        },
-        {
-          "name": "cap/measured_value/unit",
-          "static": "%"
-        },
         { "name": "config/on" },
         { "name": "config/reachable" },
         {
